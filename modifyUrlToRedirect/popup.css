@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#trans {
+  width: 100%;
+}
+
+.tag {
+  display: flex;
+  cursor: default;
+  height: 1.1em;
+}
+
+.tag:hover {
+  background-color: dodgerblue;
+}
+
+.one {
+  flex: 4;
+  font-weight: bold;
+}
+
+.another {
+  flex: 4;
+  font-weight: bold;
+}
+
+.which {
+  flex: 2;
+  font-weight: bold;
+}
+
+.close {
+  flex: 1;
+  font-weight: bold;
+}
+
+.close img {
+  width: 1em;
+  cursor:pointer;
+}
